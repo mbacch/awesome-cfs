@@ -1,4 +1,4 @@
-# Awesome Core Flight System (cFS)
+# Awesome core Flight System (cFS)
 
 This is a curated list of cFS links, apps, tools, documentation, training, misions/projects. The goal is to have a one stop shot for new and experienced users to find sources for cFS.
 
@@ -8,7 +8,7 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 
 ## Table of Contents
 
-- [Awesome Core Flight System (cFS)](#awesome-core-flight-system-cfs)
+- [Awesome core Flight System (cFS)](#awesome-core-flight-system-cfs)
   - [Table of Contents](#table-of-contents)
   - [Framework and Development Environments](#framework-and-development-environments)
     - [cFS Home](#cfs-home)
