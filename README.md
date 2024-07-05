@@ -48,8 +48,10 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 
 ### Development Environments, Distributions and Platforms
 
-- [OpenSatKit](https://github.com/OpenSatKit/OpenSatKit) - Includes cFS, COSMOS Ground System and the 42 Simulator.
+
 - [cfs-basecamp](https://github.com/cfs-tools/cfs-basecamp) - A lightweight environment to help learn cFS.
+- [nos3](https://github.com/nasa/nos3) - Small satellite enivronment with cFS, COSMOS and NOS3 simulator
+- [OpenSatKit](https://github.com/OpenSatKit/OpenSatKit) - Includes cFS, COSMOS Ground System and the 42 Simulator.
 - [pi-sat](https://github.com/OpenSatKit/pi-sat) - A cFS distribution that can be run on a Raspberry Pi.
 
 ## Apps
