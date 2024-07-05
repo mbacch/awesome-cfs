@@ -4,6 +4,8 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 
 [Please contribute!](contributing.md)
 
+*Note:* While NASA's cFS is under active development, it appears some cFS repos are not in active development or are clearly deprecated. Since there are not a ton of cFS resources on the Internet, I have opted to include those in this list for now.
+
 ## Table of Contents
 
 - [Awesome Core Flight System (cFS)](#awesome-core-flight-system-cfs)
@@ -123,6 +125,7 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 - [CTF](https://github.com/nasa/CTF) - cFS Test Framework (CTF) provides cFS projects with the capability to develop and run automated test and verification scripts.
 - [elf2cfetbl](https://github.com/nasa/elf2cfetbl) - A ground utility to convert ELF to cFE binary tables for cFS.
 - [gen_msgids](https://github.com/nasa/gen_msgids) - A ground utility to Generate Message Ids used by cFE for cFS
+- [SIL](https://github.com/nasa/SIL) - Tools for generating CFS ECI-compatible code from Simulink models.
 - [tblCRCTool](https://github.com/nasa/tblCRCTool) - A ground utility to generate binary table CRCs for cFS.
 
 ## Documentation
