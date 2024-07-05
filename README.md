@@ -19,7 +19,6 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
     - [Hardware Specific Apps and Demos](#hardware-specific-apps-and-demos)
     - [Data Interface Apps](#data-interface-apps)
   - [Tools](#tools)
-  - [Platforms and Demos](#platforms-and-demos)
   - [Documentation](#documentation)
     - [Reference Documentation and User's Guides](#reference-documentation-and-users-guides)
     - [Applications](#applications)
@@ -53,6 +52,8 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 - [nos3](https://github.com/nasa/nos3) - Small satellite enivronment with cFS, COSMOS and NOS3 simulator
 - [OpenSatKit](https://github.com/OpenSatKit/OpenSatKit) - Includes cFS, COSMOS Ground System and the 42 Simulator.
 - [pi-sat](https://github.com/OpenSatKit/pi-sat) - A cFS distribution that can be run on a Raspberry Pi.
+- [rtems-cfs-demo](https://github.com/alanc98/rtems-cfs-demo) - This is a Beaglebone Black RTEMS core Flight System demo.
+
 
 ## Apps
 
@@ -116,13 +117,12 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 
 ## Tools
 
+- [CCDD](https://github.com/nasa/CCDD) - CFS Command and Data Dictionary Tool manages command and telemetry data for CFS and CFS applications.
 - [cFS-GroundSystem](https://github.com/nasa/cFS-GroundSystem) - Default ground system included with NASA's cFS.
 - [elf2cfetbl](https://github.com/nasa/elf2cfetbl) - A ground utility to convert ELF to cFE binary tables for cFS.
 - [tblCRCTool](https://github.com/nasa/tblCRCTool) - A ground utility to generate binary table CRCs for cFS.
+- [CTF](https://github.com/nasa/CTF) - cFS Test Framework (CTF) provides cFS projects with the capability to develop and run automated test and verification scripts.
 
-## Platforms and Demos
-
-- [rtems-cfs-demo](https://github.com/alanc98/rtems-cfs-demo) - This is a Beaglebone Black RTEMS core Flight System demo.
 
 ## Documentation
 
