@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Awesome cFS welcomes contributions through GitHub Pull Requests.
+Awesome cFS welcomes contributions through a pull request or writing an issue. 
 
 Please make sure that your pull request follows these guidelines:
 

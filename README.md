@@ -8,10 +8,10 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 
 - [Awesome Core Flight System (cFS)](#awesome-core-flight-system-cfs)
   - [Table of Contents](#table-of-contents)
-  - [Architecture add Bundles](#architecture-add-bundles)
+  - [Framework and Development Environments](#framework-and-development-environments)
     - [cFS Home](#cfs-home)
     - [Framework Components](#framework-components)
-    - [Other Bundles](#other-bundles)
+    - [Development Environments, Distributions and Platforms](#development-environments-distributions-and-platforms)
   - [Apps](#apps)
     - [Standard Apps](#standard-apps)
     - [Lab and Sim Apps](#lab-and-sim-apps)
@@ -33,12 +33,12 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
     - [Past Missions/Spacecraft](#past-missionsspacecraft)
     - [Prototypes](#prototypes)
 
-## Architecture add Bundles
+## Framework and Development Environments
 
 ### cFS Home
 
-- [NASA cFS Home](https://cfs.gsfc.nasa.gov/)
-- [NASA cFS Bundle](https://github.com/nasa/cFS)
+- [NASA cFS Home](https://cfs.gsfc.nasa.gov/) - NASA's homepage to cFS
+- [NASA cFS Bundle](https://github.com/nasa/cFS) - NASA's GitHub home to cFS
 
 ### Framework Components
 
@@ -46,11 +46,11 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 - [OSAL](https://github.com/nasa/osal/) - Operating System Abstraction Level
 - [PSP](https://github.com/nasa/PSP/) -Platform Support Package
 
-### Other Bundles
+### Development Environments, Distributions and Platforms
 
-- [OpenSatKit](https://github.com/OpenSatKit/OpenSatKit)
-- [cfs-basecamp](https://github.com/cfs-tools/cfs-basecamp)
-
+- [OpenSatKit](https://github.com/OpenSatKit/OpenSatKit) - Includes cFS, COSMOS Ground System and the 42 Simulator.
+- [cfs-basecamp](https://github.com/cfs-tools/cfs-basecamp) - A lightweight environment to help learn cFS.
+- [pi-sat](https://github.com/OpenSatKit/pi-sat) - A cFS distribution that can be run on a Raspberry Pi.
 
 ## Apps
 
