@@ -13,7 +13,7 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
     - [Framework Components](#framework-components)
     - [Development Environments, Distributions and Platforms](#development-environments-distributions-and-platforms)
   - [Apps](#apps)
-    - [Standard Apps](#standard-apps)
+    - [Generic Apps](#generic-apps)
     - [Lab and Sim Apps](#lab-and-sim-apps)
     - [Sample and Skeleton Apps](#sample-and-skeleton-apps)
     - [Hardware Specific Apps and Demos](#hardware-specific-apps-and-demos)
@@ -57,12 +57,13 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 
 ## Apps
 
-### Standard Apps
+### Generic Apps
  
 - [CS](https://github.com/nasa/CS) - The Checksum (CS) application is used for for ensuring the integrity of onboard memory.
 - [CF](https://github.com/nasa/CF) - The CF application provides CFDP CCSDS File Delivery Protocol services.
 - [CI](https://github.com/nasa/CFS_CI) - The Command Ingest (CI) application receives commands and forwards the command to the appropriate application over the software bus.
 - [DS](https://github.com/nasa/DS) - The Data Storage (DS) application is used for storing software bus messages into files.
+- [DR](https://github.com/nasa/aos-dr) - The Diagnostic Reasoner application is used for fault detection and fault isolation.
 - [FM](https://github.com/nasa/FM) - The File Management (FM) application provides onboard file system management services.
 - [HK](https://github.com/nasa/HK) - The Housekeeping (HK) application is used for building and sending combined telemetry messages to the software bus for routing.
 - [HS](https://github.com/nasa/HS) - The Healthy and Safety (HS) application provides functionality for miscellaneous different monitoring, servicing and reporting.
