@@ -13,7 +13,8 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
   - [Framework and Development Environments](#framework-and-development-environments)
     - [cFS Home](#cfs-home)
     - [Framework Components](#framework-components)
-    - [Development Environments, Distributions and Platforms](#development-environments-distributions-and-platforms)
+    - [Distributions](#distributions)
+    - [Hardware / Platform Specific](#hardware--platform-specific)
   - [Apps](#apps)
     - [Generic Apps](#generic-apps)
     - [Lab and Sim Apps](#lab-and-sim-apps)
@@ -39,7 +40,6 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 ### cFS Home
 
 - [NASA cFS Home](https://cfs.gsfc.nasa.gov/) - NASA's homepage to cFS
-- [NASA cFS Bundle](https://github.com/nasa/cFS) - NASA's GitHub home to cFS
 
 ### Framework Components
 
@@ -47,12 +47,16 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 - [OSAL](https://github.com/nasa/osal/) - Operating System Abstraction Level
 - [PSP](https://github.com/nasa/PSP/) -Platform Support Package
 
-### Development Environments, Distributions and Platforms
+### Distributions
 
-
+- [NASA cFS Bundle](https://github.com/nasa/cFS) - Initial build for a cFS system. Also primary Github home for cFS.
 - [cfs-basecamp](https://github.com/cfs-tools/cfs-basecamp) - A lightweight environment to help learn cFS.
 - [nos3](https://github.com/nasa/nos3) - Small satellite enivronment with cFS, COSMOS and NOS3 simulator
 - [OpenSatKit](https://github.com/OpenSatKit/OpenSatKit) - Includes cFS, COSMOS Ground System and the 42 Simulator.
+- [CFS-101](https://github.com/nasa/CFS-101) - Note that this training is deprecated but it is a core training provided by NASA.
+
+### Hardware / Platform Specific
+
 - [pi-sat](https://github.com/OpenSatKit/pi-sat) - A cFS distribution that can be run on a Raspberry Pi.
 - [rtems-cfs-demo](https://github.com/alanc98/rtems-cfs-demo) - This is a Beaglebone Black RTEMS core Flight System demo.
 
@@ -158,7 +162,6 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 ### Overviews and Training
 
 - [cFE/CFS (Core Flight Executive/Core Flight System)](https://ntrs.nasa.gov/citations/20090005965) (2008)
-- [CFS-101](https://github.com/nasa/CFS-101) - Note that this training is deprecated but it is a core training provided by NASA.
 - [cFS Overview](https://cfs.gsfc.nasa.gov/cFS-OviewBGSlideDeck-ExportControl-Final.pdf)
 - [Core Flight System (cFS) Training - cFS Caelum](https://ntrs.nasa.gov/citations/20210022378) (2021)
 - [Core Flight System (cFS) Training](https://ntrs.nasa.gov/citations/20205000691) (2020)
