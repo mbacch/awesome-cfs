@@ -22,6 +22,9 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
     - [Hardware Specific Apps and Demos](#hardware-specific-apps-and-demos)
     - [Data Interface Apps](#data-interface-apps)
   - [Tools](#tools)
+  - [Ground Software](#ground-software)
+    - [Simulation Software](#simulation-software)
+    - [Command and Control](#command-and-control)
   - [Documentation](#documentation)
     - [Reference Documentation and User's Guides](#reference-documentation-and-users-guides)
     - [Applications](#applications)
@@ -131,6 +134,22 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 - [gen_msgids](https://github.com/nasa/gen_msgids) - A ground utility to Generate Message Ids used by cFE for cFS
 - [SIL](https://github.com/nasa/SIL) - Tools for generating CFS ECI-compatible code from Simulink models.
 - [tblCRCTool](https://github.com/nasa/tblCRCTool) - A ground utility to generate binary table CRCs for cFS.
+
+
+## Ground Software
+
+Not cFS but this list includes common ground software used with cFS.
+
+### Simulation Software
+
+- [Trick](https://github.com/nasa/trick) - A common set of simulation capabilities and utilities to build simulations automatically. 
+- [42](https://github.com/ericstoneking/42) - Simulator of spacecraft attitude, orbit dynamics, and environmental models. 
+
+### Command and Control
+
+- [OpenC3 COSMOS](https://openc3.com/) - Open Source, Open Architecture - Command, Control and Communication. Based on Ball Aerospace COSMOS. 
+- [Yamcs](https://yamcs.org/) - Open-source software framework for command and control of spacecrafts, satellites, payloads, ground stations and ground equipment. 
+
 
 ## Documentation
 
