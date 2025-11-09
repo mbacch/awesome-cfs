@@ -106,14 +106,8 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 
 ### Hardware Specific Apps and Demos
 
-- [berry_imu](https://github.com/cfs-apps/berry_imu) - Core Flight System app that interfaces to the Ozzmaker Berry IMU over a Raspberry Pi I2C interface.
-- [gpio_demo](https://github.com/cfs-apps/gpio_demo) - Example app controlling a GPIO pin that can be used as a starting point for more sophisticated apps.
-- [lora](https://github.com/cfs-apps/lora) - Long Range (LoRa) radio communication tech demo app using a Durand/Packard 2400 MHz link.
-- [lora_rx](https://github.com/cfs-apps/lora_rx) - Long Range (LoRa) Receive app for a tech demo of a Durand/Packard 2400 MHz link. 
-- [lora_tx](https://github.com/cfs-apps/lora_tx) - Long Range (LoRa) Transmit app for a tech demo of a Durand/Packard 2400 MHz link.
 - [pi_iolib](https://github.com/cfs-apps/pi_iolib) - cFS library providing an interface to Raspberry Pi peripherals
 - [rpi_btn](https://github.com/cfs-apps/rpi_btn) - Raspberry Pi app demonstrating how to interface with a button.
-- [sx128x](https://github.com/cfs-apps/sx128x) - An SX1280 transceiver library design to be used on a Raspberry Pi.
 
 ### Data Interface Apps
 - [jmsg_app](https://github.com/cfs-apps/jmsg_app) - Serves as a ground command and telemetry interface for the JMSG_LIB.
