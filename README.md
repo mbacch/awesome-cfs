@@ -176,6 +176,7 @@ Not cFS but this list includes common ground software used with cFS.
 
 - [cFE/CFS (Core Flight Executive/Core Flight System)](https://ntrs.nasa.gov/citations/20090005965) (2008)
 - [cFS Overview](https://cfs.gsfc.nasa.gov/cFS-OviewBGSlideDeck-ExportControl-Final.pdf)
+- [Core Flight System (cFS Training - cFS Draco)](https://ntrs.nasa.gov/citations/20240000217) (2024)
 - [Core Flight System (cFS) Training - cFS Caelum](https://ntrs.nasa.gov/citations/20210022378) (2021)
 - [Core Flight System (cFS) Training](https://ntrs.nasa.gov/citations/20205000691) (2020)
 - [Open Mission Stack Learn Page](https://openmissionstack.com/learn)
