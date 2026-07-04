@@ -1,6 +1,6 @@
-# Awesome core Flight System (cFS)
+# Awesome Core Flight System (cFS)
 
-This is a curated list of cFS links, apps, tools, documentation, training, misions/projects. The goal is to have a one stop shot for new and experienced users to find sources for cFS.
+This is a curated list of cFS links, apps, tools, documentation, training, missions/projects. The goal is to have a one stop shop for new and experienced users to find sources for cFS.
 
 [Please contribute!](contributing.md)
 
@@ -47,8 +47,8 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 ### Framework Components
 
 - [cFE](https://github.com/nasa/cFE) - Core Flight Executive
-- [OSAL](https://github.com/nasa/osal/) - Operating System Abstraction Level
-- [PSP](https://github.com/nasa/PSP/) -Platform Support Package
+- [OSAL](https://github.com/nasa/osal/) - Operating System Abstraction Layer
+- [PSP](https://github.com/nasa/PSP/) - Platform Support Package
 
 ### Distributions
 
@@ -67,15 +67,15 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 ## Apps
 
 ### Generic Apps
- 
-- [CS](https://github.com/nasa/CS) - The Checksum (CS) application is used for for ensuring the integrity of onboard memory.
+
 - [CF](https://github.com/nasa/CF) - The CF application provides CFDP CCSDS File Delivery Protocol services.
 - [CI](https://github.com/nasa/CFS_CI) - The Command Ingest (CI) application receives commands and forwards the command to the appropriate application over the software bus.
-- [DS](https://github.com/nasa/DS) - The Data Storage (DS) application is used for storing software bus messages into files.
+- [CS](https://github.com/nasa/CS) - The Checksum (CS) application is used for for ensuring the integrity of onboard memory.
 - [DR](https://github.com/nasa/aos-dr) - The Diagnostic Reasoner application is used for fault detection and fault isolation.
+- [DS](https://github.com/nasa/DS) - The Data Storage (DS) application is used for storing software bus messages into files.
 - [FM](https://github.com/nasa/FM) - The File Management (FM) application provides onboard file system management services.
 - [HK](https://github.com/nasa/HK) - The Housekeeping (HK) application is used for building and sending combined telemetry messages to the software bus for routing.
-- [HS](https://github.com/nasa/HS) - The Healthy and Safety (HS) application provides functionality for miscellaneous different monitoring, servicing and reporting.
+- [HS](https://github.com/nasa/HS) - The Health and Safety (HS) application provides functionality for miscellaneous different monitoring, servicing and reporting.
 - [LC](https://github.com/nasa/LC) - The Limit Checking (LC) application monitors telemetry data, compares the values against predefined threshold limits and supports predefined responses.
 - [MD](https://github.com/nasa/MD) - The Memory Dwell (MD) application monitors memory addresses accessed by the CPU.
 - [MM](https://github.com/nasa/MM) - The Memory Manager (MM) application is used for the loading and dumping system memory.
@@ -93,16 +93,16 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 - [CI_LAB](https://github.com/nasa/ci_lab) - This Command Ingest Lab (CI_LAB) application is a non-flight utility to send commands to the software bus.
 - [pl_sim](https://github.com/cfs-apps/pl_sim) - Payload simulator app that provides a ground interface to the payload simulator library (PL_SIM).
 - [pl_sim_lib](https://github.com/cfs-apps/pl_sim_lib) - Payload simulator library that simulates a fictitious detector that provides text data.
-- [SCH_LAB](https://github.com/nasa/sch_lab/) -This lab application is a non-flight packet scheduler application for the cFS Bundle.
+- [SCH_LAB](https://github.com/nasa/sch_lab/) - This lab application is a non-flight packet scheduler application for the cFS Bundle.
 - [TO_LAB](https://github.com/nasa/to_lab) - This lab application is a non-flight utility to downlink telemetry from the cFS Bundle.
 - [TVSIO](https://github.com/nasa/tvsio) - This application provides two-way communication between cFS's Software Bus Network (SBN) and Trick simulations.
 - [TVSIO Demo](https://github.com/nasa/tvsio-demo) - A sample project for integrating TVS-IO into cFS
-- [sc_sim](https://github.com/cfs-apps/sc_sim) - Simulate a simple spacecraft operational interface that exposes users to a remote operational interface. 
+- [sc_sim](https://github.com/cfs-apps/sc_sim) - Simulate a simple spacecraft operational interface that exposes users to a remote operational interface.
 
 ### Sample and Skeleton Apps
 
 - [Sample App](https://github.com/nasa/sample_app/) - This sample application is a non-flight example application implementation for the cFS Bundle.
-- [Skeleton App](https://github.com/nasa/skeleton_app) - A bare-bones cFS application
+- [Skeleton App](https://github.com/nasa/skeleton_app) - A bare-bones cFS application (unmaintained).
 
 ### Hardware Specific Apps and Demos
 
@@ -116,8 +116,6 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 - [jmsg_udp](https://github.com/cfs-apps/jmsg_udp) - Provide a gateway between the cFS Software Bus and JSON messages transmitted using UDP.
 - [mqtt_lib](https://github.com/cfs-apps/mqtt_lib) - The Eclipse Paho Embedded C MQTT Library ported to the core Flight System.
 - [pl_mgr](https://github.com/cfs-apps/pl_mgr) - Example payload management app.
-- [tbl_sat]() - Raspberry Pi app used in the Table Sat kit.
-- [tplug_web]() - Serves as an example for using JMSG_MQTT to interface with a web app via an MQTT broker. 
 
 ## Tools
 
@@ -129,20 +127,19 @@ This is a curated list of cFS links, apps, tools, documentation, training, misio
 - [SIL](https://github.com/nasa/SIL) - Tools for generating CFS ECI-compatible code from Simulink models.
 - [tblCRCTool](https://github.com/nasa/tblCRCTool) - A ground utility to generate binary table CRCs for cFS.
 
-
 ## Ground Software
 
 Not cFS but this list includes common ground software used with cFS.
 
 ### Simulation Software
 
-- [Trick](https://github.com/nasa/trick) - A common set of simulation capabilities and utilities to build simulations automatically. 
-- [42](https://github.com/ericstoneking/42) - Simulator of spacecraft attitude, orbit dynamics, and environmental models. 
+- [Trick](https://github.com/nasa/trick) - A common set of simulation capabilities and utilities to build simulations automatically.
+- [42](https://github.com/ericstoneking/42) - Simulator of spacecraft attitude, orbit dynamics, and environmental models.
 
 ### Command and Control
 
-- [OpenC3 COSMOS](https://openc3.com/) - Open Source, Open Architecture - Command, Control and Communication. Based on Ball Aerospace COSMOS. 
-- [Yamcs](https://yamcs.org/) - Open-source software framework for command and control of spacecrafts, satellites, payloads, ground stations and ground equipment. 
+- [OpenC3 COSMOS](https://openc3.com/) - Open Source, Open Architecture - Command, Control and Communication. Based on Ball Aerospace COSMOS.
+- [Yamcs](https://yamcs.org/) - Open-source software framework for command and control of spacecrafts, satellites, payloads, ground stations and ground equipment.
 
 
 ## Documentation
@@ -176,7 +173,7 @@ Not cFS but this list includes common ground software used with cFS.
 
 - [cFE/CFS (Core Flight Executive/Core Flight System)](https://ntrs.nasa.gov/citations/20090005965) (2008)
 - [cFS Overview](https://cfs.gsfc.nasa.gov/cFS-OviewBGSlideDeck-ExportControl-Final.pdf)
-- [Core Flight System (cFS Training - cFS Draco)](https://ntrs.nasa.gov/citations/20240000217) (2024)
+- [Core Flight System (cFS) Training - cFS Draco](https://ntrs.nasa.gov/citations/20240000217) (2024)
 - [Core Flight System (cFS) Training - cFS Caelum](https://ntrs.nasa.gov/citations/20210022378) (2021)
 - [Core Flight System (cFS) Training](https://ntrs.nasa.gov/citations/20205000691) (2020)
 - [Open Mission Stack Learn Page](https://openmissionstack.com/learn)
@@ -194,19 +191,26 @@ The following projects are documented or reported as using cFS.
 
 ### Currently Flying Spacecraft
 
-- [LRO](https://science.nasa.gov/mission/lro/) - Lunar Reconnaissance Orbitor
 - [GPM](https://gpm.nasa.gov/missions/GPM) - Global Precipitation Measurement
+- [LRO](https://science.nasa.gov/mission/lro/) - Lunar Reconnaissance Orbiter
 - [MMS](https://science.nasa.gov/mission/mms) - Magnetospheric Multiscale
 - [PSP](https://science.nasa.gov/mission/parker-solar-probe/) - Parker Solar Probe
 
 ### Upcoming Missions/Spacecraft
 
-- [Artemis II Orion](https://www.nasa.gov/mission/artemis-ii/) - Similar use as Artemis I including camera controllers and backup flight software.
+- [Roman Space Telescope](https://science.nasa.gov/mission/roman-space-telescope/)
+- [Lunar Gateway](https://www.nasa.gov/mission/gateway/)
+- [Mars Sample Return](https://science.nasa.gov/mission/mars-sample-return/)
+- [Artemis III Orion](https://www.nasa.gov/mission/artemis-iii/)
+
 
 ### Past Missions/Spacecraft
 
+- [Artemis II Orion](https://www.nasa.gov/mission/artemis-ii/) - Similar use as Artemis I including camera controllers and backup flight software.
+- [Intuitive Machines Nova-C IM-2](https://www.intuitivemachines.com/missions/lunar/im-2-mission)
+- [Intuitive Machines Nova-C IM-1](https://www.intuitivemachines.com/missions/lunar/im-1-mission)
 - [Artemis I Orion](https://www.nasa.gov/mission/artemis-i/) - Used in camera controllers and backup flight software per NASA presentation: [Core Flight Software Projects on Orion Multi-Purpose Crew Vehicle](https://ntrs.nasa.gov/citations/20190000011).
-- [Ascent Abort 2 (AA-2)](https://www.nasa.gov/mission/ascent-abort-2/) - Used as primary flight control system per NASA presentation: [Core Flight Software Projects on Orion Multi-Purpose Crew Vehicle](https://ntrs.nasa.gov/citations/20190000011). 
+- [Ascent Abort 2 (AA-2)](https://www.nasa.gov/mission/ascent-abort-2/) - Used as primary flight control system per NASA presentation: [Core Flight Software Projects on Orion Multi-Purpose Crew Vehicle](https://ntrs.nasa.gov/citations/20190000011).
 - [LADEE](https://science.nasa.gov/mission/ladee) - Lunar Atmosphere and Dust Environment Explorer
 - [Van Allen Probes (formerly RBSP)](https://en.wikipedia.org/wiki/Van_Allen_Probes)
 
