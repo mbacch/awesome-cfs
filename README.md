@@ -1,62 +1,59 @@
-# Awesome Core Flight System (cFS)
+# Awesome Core Flight System [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This is a curated list of cFS links, apps, tools, documentation, training, missions/projects. The goal is to have a one stop shop for new and experienced users to find sources for cFS.
+> A curated list of resources for NASA's Core Flight System (cFS) — the open-source flight software framework for spacecraft, instruments, and payloads.
 
-[Please contribute!](contributing.md)
+NASA's Core Flight System (cFS) is a reusable flight software architecture that provides a portable, extendable platform and a suite of reusable applications, flown on missions ranging from CubeSats to flagship spacecraft.
 
-*Note:* While NASA's cFS is under active development, it appears some cFS repos are not in active development or are clearly deprecated. Since there are not a ton of cFS resources on the Internet, I have opted to include those in this list for now.
+*Note:* While NASA's cFS is under active development, some cFS repositories are no longer actively maintained or are clearly deprecated. Because there are relatively few cFS resources online, some of these are still included here for reference.
 
-## Table of Contents
+## Contents
 
-- [Awesome core Flight System (cFS)](#awesome-core-flight-system-cfs)
-  - [Table of Contents](#table-of-contents)
-  - [Framework and Development Environments](#framework-and-development-environments)
-    - [cFS Home](#cfs-home)
-    - [Framework Components](#framework-components)
-    - [Distributions](#distributions)
-    - [Hardware / Platform Specific](#hardware--platform-specific)
-  - [Apps](#apps)
-    - [Generic Apps](#generic-apps)
-    - [Lab and Sim Apps](#lab-and-sim-apps)
-    - [Sample and Skeleton Apps](#sample-and-skeleton-apps)
-    - [Hardware Specific Apps and Demos](#hardware-specific-apps-and-demos)
-    - [Data Interface Apps](#data-interface-apps)
-  - [Tools](#tools)
-  - [Ground Software](#ground-software)
-    - [Simulation Software](#simulation-software)
-    - [Command and Control](#command-and-control)
-  - [Documentation](#documentation)
-    - [Reference Documentation and User's Guides](#reference-documentation-and-users-guides)
-    - [Applications](#applications)
-    - [Articles](#articles)
-    - [Ground Systems](#ground-systems)
-    - [Overviews and Training](#overviews-and-training)
-    - [Verification and Validation](#verification-and-validation)
-  - [cFS Spacecraft, Payloads and Projects](#cfs-spacecraft-payloads-and-projects)
-    - [Currently Flying Spacecraft](#currently-flying-spacecraft)
-    - [Upcoming Missions/Spacecraft](#upcoming-missionsspacecraft)
-    - [Past Missions/Spacecraft](#past-missionsspacecraft)
-    - [Prototypes](#prototypes)
+- [Framework and Development Environments](#framework-and-development-environments)
+  - [cFS Home](#cfs-home)
+  - [Framework Components](#framework-components)
+  - [Distributions](#distributions)
+  - [Hardware / Platform Specific](#hardware--platform-specific)
+- [Apps](#apps)
+  - [Generic Apps](#generic-apps)
+  - [Lab and Sim Apps](#lab-and-sim-apps)
+  - [Sample and Skeleton Apps](#sample-and-skeleton-apps)
+  - [Hardware Specific Apps and Demos](#hardware-specific-apps-and-demos)
+  - [Data Interface Apps](#data-interface-apps)
+- [Tools](#tools)
+- [Ground Software](#ground-software)
+  - [Simulation Software](#simulation-software)
+  - [Command and Control](#command-and-control)
+- [Documentation](#documentation)
+  - [Reference Documentation and User's Guides](#reference-documentation-and-users-guides)
+  - [Applications](#applications)
+  - [Articles](#articles)
+  - [Ground Systems](#ground-systems)
+  - [Overviews and Training](#overviews-and-training)
+  - [Verification and Validation](#verification-and-validation)
+- [cFS Spacecraft, Payloads and Projects](#cfs-spacecraft-payloads-and-projects)
+  - [Currently Flying Spacecraft](#currently-flying-spacecraft)
+  - [Upcoming Missions/Spacecraft](#upcoming-missionsspacecraft)
+  - [Past Missions/Spacecraft](#past-missionsspacecraft)
+  - [Prototypes](#prototypes)
 
 ## Framework and Development Environments
 
 ### cFS Home
 
-- [NASA cFS Home](https://cfs.gsfc.nasa.gov/) - NASA's homepage to cFS
+- [NASA cFS Home](https://cfs.gsfc.nasa.gov/) - NASA's homepage to cFS.
 
 ### Framework Components
 
-- [cFE](https://github.com/nasa/cFE) - Core Flight Executive
-- [OSAL](https://github.com/nasa/osal/) - Operating System Abstraction Layer
-- [PSP](https://github.com/nasa/PSP/) - Platform Support Package
+- [cFE](https://github.com/nasa/cFE) - Core Flight Executive.
+- [OSAL](https://github.com/nasa/osal/) - Operating System Abstraction Layer.
+- [PSP](https://github.com/nasa/PSP/) - Platform Support Package.
 
 ### Distributions
 
-- [NASA cFS Bundle](https://github.com/nasa/cFS) - Initial build for a cFS system. Also primary Github home for cFS.
+- [NASA cFS Bundle](https://github.com/nasa/cFS) - Initial build for a cFS system. Also primary GitHub home for cFS.
 - [cfs-basecamp](https://github.com/cfs-tools/cfs-basecamp) - A lightweight environment to help learn cFS.
-- [nos3](https://github.com/nasa/nos3) - Small satellite enivronment with cFS, COSMOS and NOS3 simulator
+- [nos3](https://github.com/nasa/nos3) - Small satellite environment with cFS, COSMOS and NOS3 simulator.
 - [OpenSatKit](https://github.com/OpenSatKit/OpenSatKit) - Includes cFS, COSMOS Ground System and the 42 Simulator.
-- [CFS-101](https://github.com/nasa/CFS-101) - Note that this training is deprecated but it is a core training provided by NASA.
 
 ### Hardware / Platform Specific
 
@@ -96,17 +93,16 @@ This is a curated list of cFS links, apps, tools, documentation, training, missi
 - [SCH_LAB](https://github.com/nasa/sch_lab/) - This lab application is a non-flight packet scheduler application for the cFS Bundle.
 - [TO_LAB](https://github.com/nasa/to_lab) - This lab application is a non-flight utility to downlink telemetry from the cFS Bundle.
 - [TVSIO](https://github.com/nasa/tvsio) - This application provides two-way communication between cFS's Software Bus Network (SBN) and Trick simulations.
-- [TVSIO Demo](https://github.com/nasa/tvsio-demo) - A sample project for integrating TVS-IO into cFS
+- [TVSIO Demo](https://github.com/nasa/tvsio-demo) - A sample project for integrating TVS-IO into cFS.
 - [sc_sim](https://github.com/cfs-apps/sc_sim) - Simulate a simple spacecraft operational interface that exposes users to a remote operational interface.
 
 ### Sample and Skeleton Apps
 
 - [Sample App](https://github.com/nasa/sample_app/) - This sample application is a non-flight example application implementation for the cFS Bundle.
-- [Skeleton App](https://github.com/nasa/skeleton_app) - A bare-bones cFS application (unmaintained).
 
 ### Hardware Specific Apps and Demos
 
-- [pi_iolib](https://github.com/cfs-apps/pi_iolib) - cFS library providing an interface to Raspberry Pi peripherals
+- [pi_iolib](https://github.com/cfs-apps/pi_iolib) - cFS library providing an interface to Raspberry Pi peripherals.
 - [rpi_btn](https://github.com/cfs-apps/rpi_btn) - Raspberry Pi app demonstrating how to interface with a button.
 
 ### Data Interface Apps
@@ -123,7 +119,7 @@ This is a curated list of cFS links, apps, tools, documentation, training, missi
 - [cFS-GroundSystem](https://github.com/nasa/cFS-GroundSystem) - Default ground system included with NASA's cFS.
 - [CTF](https://github.com/nasa/CTF) - cFS Test Framework (CTF) provides cFS projects with the capability to develop and run automated test and verification scripts.
 - [elf2cfetbl](https://github.com/nasa/elf2cfetbl) - A ground utility to convert ELF to cFE binary tables for cFS.
-- [gen_msgids](https://github.com/nasa/gen_msgids) - A ground utility to Generate Message Ids used by cFE for cFS
+- [gen_msgids](https://github.com/nasa/gen_msgids) - A ground utility to Generate Message Ids used by cFE for cFS.
 - [SIL](https://github.com/nasa/SIL) - Tools for generating CFS ECI-compatible code from Simulink models.
 - [tblCRCTool](https://github.com/nasa/tblCRCTool) - A ground utility to generate binary table CRCs for cFS.
 
@@ -146,9 +142,9 @@ Not cFS but this list includes common ground software used with cFS.
 
 ### Reference Documentation and User's Guides
 
-  - [cFE User's Guide](https://github.com/nasa/cFS/blob/gh-pages/cfe-usersguide.pdf)
-  - [OSAL User's Guide](https://github.com/nasa/cFS/blob/gh-pages/osal-apiguide.pdf)
-  - [cFE App Developer's Guide](https://github.com/nasa/cFE/blob/main/docs/cFE%20Application%20Developers%20Guide.md)
+- [cFE User's Guide](https://github.com/nasa/cFS/blob/gh-pages/cfe-usersguide.pdf)
+- [OSAL User's Guide](https://github.com/nasa/cFS/blob/gh-pages/osal-apiguide.pdf)
+- [cFE App Developer's Guide](https://github.com/nasa/cFE/blob/main/docs/cFE%20Application%20Developers%20Guide.md)
 
 
 ### Applications
@@ -157,12 +153,12 @@ Not cFS but this list includes common ground software used with cFS.
 - [Application of the Core Flight System to a Lunar Rover](https://ntrs.nasa.gov/citations/20170012168) (2017)
 - [Future Standardization of Space Telecommunications Radio System with Core Flight System](https://ntrs.nasa.gov/citations/20170001293) (2016)
 - [Lessons from 30 Years of Flight Software](https://ntrs.nasa.gov/citations/20150019915) (2015)
-- [NASA's Core Flight Software - A Reusable Real-Time Framework](https://ntrs.nasa.gov/citations/20140017040) (2014) - Includes cFS overview, Morpheus Lander case status, etc
+- [NASA's Core Flight Software - A Reusable Real-Time Framework](https://ntrs.nasa.gov/citations/20140017040) (2014) - Includes cFS overview, Morpheus Lander case status, etc.
 
 ### Articles
 
-- [The Road to the New Flight Software](https://cfs.gsfc.nasa.gov/Issue%2051Summer%202013.pdf) - Starting on page 33
-- [Open Source Space](https://www.linuxjournal.com/content/open-source-space?page=0,0) - Linux Journal
+- [The Road to the New Flight Software](https://cfs.gsfc.nasa.gov/Issue%2051Summer%202013.pdf) - Starting on page 33.
+- [Open Source Space](https://www.linuxjournal.com/content/open-source-space?page=0,0) - Linux Journal.
 
 ### Ground Systems
 
@@ -191,10 +187,10 @@ The following projects are documented or reported as using cFS.
 
 ### Currently Flying Spacecraft
 
-- [GPM](https://gpm.nasa.gov/missions/GPM) - Global Precipitation Measurement
-- [LRO](https://science.nasa.gov/mission/lro/) - Lunar Reconnaissance Orbiter
-- [MMS](https://science.nasa.gov/mission/mms) - Magnetospheric Multiscale
-- [PSP](https://science.nasa.gov/mission/parker-solar-probe/) - Parker Solar Probe
+- [GPM](https://gpm.nasa.gov/missions/GPM) - Global Precipitation Measurement.
+- [LRO](https://science.nasa.gov/mission/lro/) - Lunar Reconnaissance Orbiter.
+- [MMS](https://science.nasa.gov/mission/mms) - Magnetospheric Multiscale.
+- [PSP](https://science.nasa.gov/mission/parker-solar-probe/) - Parker Solar Probe.
 
 ### Upcoming Missions/Spacecraft
 
@@ -211,9 +207,13 @@ The following projects are documented or reported as using cFS.
 - [Intuitive Machines Nova-C IM-1](https://www.intuitivemachines.com/missions/lunar/im-1-mission)
 - [Artemis I Orion](https://www.nasa.gov/mission/artemis-i/) - Used in camera controllers and backup flight software per NASA presentation: [Core Flight Software Projects on Orion Multi-Purpose Crew Vehicle](https://ntrs.nasa.gov/citations/20190000011).
 - [Ascent Abort 2 (AA-2)](https://www.nasa.gov/mission/ascent-abort-2/) - Used as primary flight control system per NASA presentation: [Core Flight Software Projects on Orion Multi-Purpose Crew Vehicle](https://ntrs.nasa.gov/citations/20190000011).
-- [LADEE](https://science.nasa.gov/mission/ladee) - Lunar Atmosphere and Dust Environment Explorer
+- [LADEE](https://science.nasa.gov/mission/ladee) - Lunar Atmosphere and Dust Environment Explorer.
 - [Van Allen Probes (formerly RBSP)](https://en.wikipedia.org/wiki/Van_Allen_Probes)
 
 ### Prototypes
 
-- [Project Morpheus](https://en.wikipedia.org/wiki/Project_Morpheus) - A full scale robotic lander used as a risk reduction test article
+- [Project Morpheus](https://en.wikipedia.org/wiki/Project_Morpheus) - A full scale robotic lander used as a risk reduction test article.
+
+## Contributing
+
+Contributions are welcome! Please read the [contribution guidelines](contributing.md) first.
